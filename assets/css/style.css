@@ -653,7 +653,7 @@ section {
   text-decoration: none;
 }
 .footer i:hover {
-  color: rgb(93, 93, 231); /* Change color on hover */
+  color: #37b3ed; /* Change color on hover */
 }
 .footer i {
   font-size: 20px;
