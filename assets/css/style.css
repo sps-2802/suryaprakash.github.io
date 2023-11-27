@@ -640,35 +640,27 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#footer {
-  padding: 15px;
-  color: #f4f6fd;
-  font-size: 14px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 300px;
-  z-index: 9999;
-  background: #040b14;
-}
-
-#footer .copyright {
+.contact{
   text-align: center;
 }
-
-#footer .credits {
-  padding-top: 5px;
+.footer {
+  padding: 20px 0;
   text-align: center;
-  font-size: 13px;
-  color: #eaebf0;
 }
-
-@media (max-width: 1199px) {
-  #footer {
-    position: static;
-    width: auto;
-    padding-right: 20px 15px;
-  }
+.footer a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.footer i:hover {
+  color: rgb(93, 93, 231); /* Change color on hover */
+}
+.footer i {
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
 }
 
 /*--------------------------------------------------------------
@@ -698,6 +690,7 @@ section {
 # skills
 --------------------------------------------------------------*/
 
+
 /*--------------------------------------------------------------
 # table
 --------------------------------------------------------------*/
@@ -717,28 +710,8 @@ strong {
 }
 
 
-.contact{
-  text-align: center;
-}
-.footer {
-  padding: 20px 0;
-  text-align: center;
-}
-.footer a {
-  color: #fff;
-  margin: 0 10px;
-  text-decoration: none;
-}
-.footer a:hover {
-  color: #007bff; /* Change color on hover */
-}
-.footer i {
-  font-size: 20px;
-  border-radius: 50%;
-  padding: 10px;
-  background-color: #fff;
-  color: #000;
-}
+
+
 
 
 
